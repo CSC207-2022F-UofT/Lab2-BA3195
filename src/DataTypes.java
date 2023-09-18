@@ -7,7 +7,7 @@ public class DataTypes {
         int s = 0;
         // below is a "foreach" loop which iterates through numbers
         for (int x : numbers) {
-            s += x;
+            s += x * 500_000;
         }
         return s;
     }
